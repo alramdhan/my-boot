@@ -12,6 +12,6 @@
 
 	<!-- Home Page -->
 	<definition name="home" extends="based-template">
-		<put-attribute name="content" value="/WEB-INF/views/home.jsp" />
+		<put-attribute name="content" value="/WEB-INF/views/index.jsp" />
 	</definition>
 </tiles-definitions>

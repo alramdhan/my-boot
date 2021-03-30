@@ -7,7 +7,6 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 @SpringBootApplication
 public class DemoBootApplication extends SpringBootServletInitializer {
-
 	public static void main(String[] args) {
 		System.setProperty("server.servlet.context-path", "/DemoBoot");
 		SpringApplication.run(DemoBootApplication.class, args);
